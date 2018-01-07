@@ -27,7 +27,52 @@
 
 
 
-    //cookie
+    //添加购物车
+    var appendCart = document.querySelector('#appendCart');
+    // console.log(appendCart);
+    var carlist = [];
+    var cookies = document.cookie;
+    if(cookies.length){
+        cookies = cookies.split('; ');
+        cookies.forEach(function(item){
+            var arr = item.split('=');
+            if(arr[0] === 'carlist'){
+                carlist = JSON.parse(arr[1]);
+            }
+        })
+    }
+
+    appendCart.onclick = function(e){
+        var guid = data.id;
+        console.log(guid);
+        for(var i=0;i<carlist.length;i++){
+            if(carlist[i].id === guid){
+                break;
+            } 
+        }
+
+        if(i ===carlist.length){
+            //无相同商品创建对象，且数量为1
+            var goods = {
+                id:guid,
+                title:data.title,
+                discounts:data.discounts,
+                price:data.price,
+                imgurl:data.imgurl,
+                qty:1
+            }
+            carlist.push(goods);
+        }else{
+            carlist[i].qty++;
+        }
+        document.cookie = 'carlist=' + JSON.stringify(carlist);
+        console.log(document.cookie);
+    }
+
+    var $buy = $('#buy');
+    $buy.on('click',function(){
+        location.href = 'cart.html';
+    })
 
 
 
@@ -164,23 +209,8 @@
 
 
 
-    var $appendCart = $('.appendCart');
+    
 
-    var carlist = [];
-    var cookies = document.cookie;
-    if(cookies.length){
-        cookies = cookies.split('; ');
-        cookies.forEach(function(item){
-            var arr = item.split('=');
-            if(arr[0] === 'carlist'){
-                carlist = JSON.parse(arr[1]);
-            }
-        })
-    }
-
-    $appendCart.on('click',function(){
-        
-    }) 
 
 
 })(jQuery)

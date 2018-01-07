@@ -35,12 +35,33 @@
                 right:45px;
             }
         }
+        .cart_tHead{
+            margin-top:50px;
+            border: 1px solid #ccc;
+            background: #f9f9f9;
+            text-align:center;
+            height: 30px;
+            line-height: 30px;
+            font-size:14px;
+            span{
+                width: 108px;
+                display:inline-block;
+            }
+            .e_product{
+                width: 440px;
+            }
+            .e_quantity{
+                width: 100px;
+            }
+            .e_price,.e_subtotal{
+                width: 110px;
+            }
+        }
         .cart_content{
-            height: 180px;
             font-size: 14px;
             line-height: 20px;
-            margin-top:50px;
-            padding-top: 10px;
+            margin-top:10px;
+            
             border: 1px solid #ccc;
             i{
                 width: 43px;
@@ -51,10 +72,72 @@
             }
             .cart_null_text{
                 width: 400px;
-                margin: 50px 0 0 295px;
+                margin: 60px 0 0 295px;
             }
             a{
                 color:#690;
+            }
+            ul li{
+                height: 60px;
+                padding:10px 0;
+                a{
+                    display:inline-block;
+                    width: 420px;
+                    margin-left: 20px;
+                    float:left;
+                    img{
+                        width: 58px;
+                        height: 58px;
+                        border: 1px solid #eee; 
+                    }
+                    span{
+                        margin-left:10px;
+                    }
+                }
+                span{
+                    display:inline-block;
+                }
+                .guang{
+                    width: 110px;
+                    height: 60px;
+                    float:left;
+                }
+                .jian,.jia{
+                    width: 20px;
+                    height: 20px;
+                    line-height: 20px;
+                    font-size: 16px;
+                    text-align: center;
+                    border: 1px solid #ccc;
+                    background: #eee;
+                    cursor: pointer;
+                    margin: 19px 0 0 6px;
+                    float:left;
+                }
+                .shu{
+                    width: 30px;
+                    text-align:center;
+                    float:left;
+                    border:1px solid #ccc;
+                    margin: 19px 0 0 6px;
+                }
+                .danjia{
+                    width: 140px;
+                    text-align:center;
+                    line-height: 60px;
+                }
+                .xiaoji{
+                    width: 80px;
+                    text-align:center;
+                    line-height: 60px;
+                    color:#f60;
+                }
+                .caozuo{
+                    width: 80px;
+                    margin-left: 30px;
+                    text-align:center;
+                    line-height: 60px;
+                }
             }
         }
         .cart_ticket{
