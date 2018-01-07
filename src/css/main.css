@@ -1,0 +1,394 @@
+#main .hot {
+  margin-bottom: 10px;
+}
+
+#main .hot .hot_l {
+  width: 197px;
+  height: 130px;
+  border: 1px solid #e9e9e9;
+  background: #f3f3f3;
+  padding: 8px 0 0 11px;
+}
+
+#main .hot .hot_l p {
+  color: #666666;
+  height: 26px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#main .hot .hot_l ul li {
+  margin: 4px 8px 0 0;
+  float: left;
+}
+
+#main .hot .hot_l ul li a {
+  display: block;
+  width: 55px;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background: #fff;
+}
+
+#main .hot .hot_l ul li a:hover {
+  color: #fff;
+  background: #90c31f;
+  border: 1px solid #6d9d03;
+}
+
+#main .hot .hot_c {
+  padding: 9px 6px 0 6px;
+}
+
+#main .hot .hot_c a:hover {
+  opacity: 0.8;
+}
+
+#main .hot .hot_r {
+  width: 218px;
+  height: 138px;
+  border: 1px solid #e9e9e9;
+  overflow: hidden;
+}
+
+#main .hot .hot_r .tis div {
+  background: #f3f3f3;
+  float: left;
+  width: 109px;
+  height: 27px;
+  line-height: 28px;
+  border-bottom: 1px solid #e9e9e9;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#main .hot .hot_r ul {
+  padding: 10px;
+  float: left;
+}
+
+#main .hot .hot_r ul a {
+  display: block;
+  width: 198px;
+  height: 22px;
+  line-height: 22px;
+}
+
+#main .hot .hot_r .tis .active {
+  background: #fff;
+  color: #f60;
+  cursor: pointer;
+}
+
+#main .miaosha {
+  height: 182px;
+  border: 1px solid #e8e8e8;
+  border-left: none;
+  margin: 0 auto 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+#main .miaosha .msl a {
+  width: 210px;
+  height: 91px;
+  display: block;
+  background: url(../img/icon3.gif) no-repeat;
+}
+
+#main .miaosha .msl .msl1 {
+  background-position: 0 -182px;
+}
+
+#main .miaosha .msl .act, #main .miaosha .msl .msl1:hover {
+  background-position: 0 0;
+}
+
+#main .miaosha .msl .msl2 {
+  background-position: 0 -91px;
+}
+
+#main .miaosha .msl .act, #main .miaosha .msl .msl2:hover {
+  background-position: 0 -273px;
+}
+
+#main .miaosha .msr {
+  width: 979px;
+}
+
+#main .miaosha .msr ul {
+  height: 182px;
+  float: left;
+}
+
+#main .miaosha .msr ul li {
+  width: 195px;
+  height: 182px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#main .miaosha .msr ul li img {
+  width: 135px;
+}
+
+#main .ft {
+  border-bottom: 3px solid;
+  height: 27px;
+  line-height: 27px;
+}
+
+#main .ft .f_t_1 {
+  width: 210px;
+  font-size: 18px;
+}
+
+#main .ft .f_t_2 {
+  width: 490px;
+  font-size: 12px;
+  color: #666;
+}
+
+#main .ft .f_t_2 a {
+  padding: 0 4px;
+}
+
+#main .ft .f_t_3 {
+  width: 440px;
+  font-size: 12px;
+  color: #666;
+}
+
+#main .ft .f_t_3 a {
+  padding: 0 4px;
+}
+
+#main .ft .f_t_4 {
+  width: 40px;
+  position: relative;
+}
+
+#main .ft .f_t_4 i {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background: url(../img/tubiao.png) no-repeat 0 -727px;
+  display: inline-block;
+  position: absolute;
+  top: 7px;
+  right: 0px;
+}
+
+#main ._f_l_ban {
+  width: 210px;
+  height: 360px;
+}
+
+#main ._f_l_ban ul {
+  width: 420px;
+}
+
+#main .ljt-carousel ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#main .ljt-carousel img {
+  display: block;
+}
+
+#main .ljt-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+#main .ljt-carousel ul {
+  position: absolute;
+  overflow: hidden;
+}
+
+#main .ljt-carousel ul li {
+  float: left;
+}
+
+#main ._f_l_hot {
+  width: 210px;
+  background-color: #f7f7f7;
+  border: 1px solid #e9e9e9;
+}
+
+#main ._f_l_hot ._f_hot_title {
+  height: 50px;
+  line-height: 50px;
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+}
+
+#main ._f_l_hot ._f_hot_ul {
+  width: 190px;
+  height: 308px;
+  padding: 0px 0px 0px 9px;
+  overflow: hidden;
+}
+
+#main ._f_l_hot ._f_hot_ul li {
+  width: 190px;
+  height: 88px;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+#main ._f_l_hot ._f_hot_ul li ._f_hot_img {
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 18px;
+}
+
+#main ._f_l_hot ._f_hot_ul li ._f_hot_name {
+  width: 108px;
+  padding: 0px 3px 0px 9px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+  position: absolute;
+  right: 0px;
+  top: 18px;
+}
+
+#main ._f_l_hot ._f_hot_ul li ._f_hot_price {
+  width: 108px;
+  padding: 0px 3px 0px 9px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #f60;
+  position: absolute;
+  right: 0px;
+  top: 50px;
+}
+
+#main ._f_l_hot ._f_hot_ul li ._f_hot_price span {
+  margin-left: 20px;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+#main ._f_l_hot ._f_hot_ul li ._f_hot_level {
+  padding: 0px 3px 0px 9px;
+  position: absolute;
+  right: 25px;
+  top: 70px;
+}
+
+#main ._f_l_hot ._f_hot_ul li ._f_hot_level i {
+  width: 84px;
+  height: 15px;
+  display: block;
+  background: url(../img/tubiao.png) no-repeat -367px -55px;
+}
+
+#main ._f_l_hot ._f_hot_ul li ._f_hot_corner {
+  background: url(../img/f_hot_bg.png) no-repeat;
+  width: 190px;
+  height: 33px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#main ._f_l_hot ._f_hot_ul li ._f_hot_corner1 {
+  background-position: 0 0;
+}
+
+#main ._f_l_hot ._f_hot_ul li ._f_hot_corner2 {
+  background-position: 0 -33px;
+}
+
+#main ._f_l_hot ._f_hot_ul li ._f_hot_corner3 {
+  background-position: 0 -66px;
+}
+
+#main ._f_r_ban {
+  width: 490px;
+  height: 240px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#main ._f_item {
+  float: left;
+  width: 224px;
+  height: 229px;
+  margin: 0 1px 1px 0;
+  padding: 10px 10px 0px 10px;
+  background-color: #fff;
+}
+
+#main ._f_item p {
+  text-align: center;
+}
+
+#main ._1f_r, #main ._2f_r, #main ._3f_r, #main ._4f_r, #main ._5f_r {
+  float: right;
+  width: 980px;
+  background: #ddd;
+  position: relative;
+}
+
+#main ._1f_l, #main ._2f_l, #main ._3f_l, #main ._4f_l, #main ._5f_l {
+  width: 210px;
+  float: left;
+}
+
+#main #_1f ._1f_t {
+  border-color: #72b7fc;
+}
+
+#main #_1f ._1f_t .f_t_1 {
+  color: #72b7fc;
+}
+
+#main #_2f ._2f_t {
+  border-color: #fd81b3;
+}
+
+#main #_2f ._2f_t .f_t_1 {
+  color: #fd81b3;
+}
+
+#main #_3f ._3f_t {
+  border-color: #00cccc;
+}
+
+#main #_3f ._3f_t .f_t_1 {
+  color: #00cccc;
+}
+
+#main #_4f ._4f_t {
+  border-color: #666666;
+}
+
+#main #_4f ._4f_t .f_t_1 {
+  color: #666666;
+}
+
+#main #_5f ._5f_t {
+  border-color: #aa72d2;
+}
+
+#main #_5f ._5f_t .f_t_1 {
+  color: #aa72d2;
+}
+
+#_1f, #_2f, #_3f, #_4f, #_5f {
+  margin-bottom: 30px;
+}

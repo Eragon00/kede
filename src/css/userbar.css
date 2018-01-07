@@ -1,0 +1,70 @@
+/* 
+* @Author: Marte
+* @Date:   2018-01-01 16:50:35
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-01-01 22:15:32
+*/
+#userbar{
+    height: 26px;
+    font-size:12px;
+    line-height:26px;
+    color: #999;
+    background: #f2f2f2;
+    border: 1px solid #e5e5e5;
+    border-top-width: 0px;
+}
+#userbar .shoucang{
+    width: 80px;
+    padding-left: 22px;
+    background: url(../img/tubiao.png) no-repeat 3px 5px;
+}
+#userbar .denglu a{
+    margin-left:5px;
+}
+#userbar .menu a{
+    padding:0 5px;
+}
+#userbar .menu .my,#userbar .menu .help{
+    padding-right:10px;
+    position: relative;
+}
+#userbar .menu i{
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    background: url(../img/tubiao.png) no-repeat 0px -27px;
+    top: 7px;
+    right:0;
+}
+#userbar .menu .buycar,#userbar .menu .phone,#userbar .menu .tel{
+    padding-left:21px;
+    position: relative;
+}
+#userbar .menu .buycar i{
+    width: 16px;
+    height: 16px;
+    background: url(../img/tubiao.png) no-repeat 0 -47px;
+    top:0;
+    left:0;
+}
+#userbar .menu .buycar span{
+    color:#f60;
+}
+#userbar .menu .phone i{
+    width: 16px;
+    height: 16px;
+    background: url(../img/tubiao.png) no-repeat 0 -72px;
+    top:0;
+    left:0;       
+}
+#userbar .menu .tel{
+    color:#f60;
+}
+#userbar .menu .tel i{
+    width: 16px;
+    height: 16px;
+    background: url(../img/tubiao.png) no-repeat -100px 0;
+    top:0;
+    left:0;       
+}

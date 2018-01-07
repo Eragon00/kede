@@ -1,0 +1,63 @@
+/* 
+* @Author: Marte
+* @Date:   2018-01-01 14:44:34
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-01-01 16:01:05
+*/
+#footer{
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+    background: #F0F0F0;
+    margin-top: 20px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.15) inset;
+    padding-top: 10px;
+}
+#footer a{
+    color: #999;
+}
+#footer a:hover{
+    color: #f60;
+}
+#footer .footer-2{
+    display: inline-block;
+    padding: 20px 40px;
+    border-top: 1px #fff solid;
+    border-bottom: 1px solid #E0E0E0;
+}
+#footer .footer-2 ul{
+    width: 150px;
+    float: left;
+}
+#footer .footer-2 h4{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#footer .footer-3{
+    border-top: 1px #fff solid;
+    padding: 14px 0;
+}
+#footer .footer-3 p{
+    padding-top:5px;
+}
+#footer .footer-3 a{
+    margin:0 5px;
+}
+#footer .footer-4{
+    margin: 0 auto;
+    width: 462px;
+    height: 40px;
+    background: url(../img/FTC-01-bg3.jpg) no-repeat;
+}
+#footer .footer-4 a{
+    float:left;
+    display:inline-block;
+    width: 108px;
+    height: 40px;
+    margin-right:10px;
+}
+#footer .footer-4 a:last-child{
+    margin:0;
+}

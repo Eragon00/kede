@@ -1,0 +1,106 @@
+/* 
+* @Author: Marte
+* @Date:   2018-01-01 21:55:48
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-01-02 13:03:50
+*/
+#header .pagetop{
+    height: 80px;
+    padding-top: 20px;
+}
+#header .pagetop .logo{
+    width: 196px;
+    height: 56px;
+}
+#header .pagetop .baoyou{
+    width: 248px;
+    height: 76px;
+    margin-left:270px;
+    padding:0 11px;
+    background: url(../img/ind_top_bq.gif) no-repeat;
+}
+#header .pagetop .baoyou a{
+    display:block;
+    width: 62px;
+    height: 76px;
+    float:left;
+}
+#header .pagetop form{
+    width: 330px;
+    float:right;
+    margin-top:10px;
+}
+#header .pagetop form .search{
+    position: relative;
+    border: 2px solid #90C221;
+    width: 326px;
+}
+#header .pagetop form input{
+    width: 215px;
+    height: 30px;
+    padding-left:33px;
+}
+#header .pagetop form .search i{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../img/tubiao.png) no-repeat 5px -349px;
+}
+#header .pagetop form .search button{
+    width: 73px;
+    height: 30px;
+    background: #90C221;
+    border:0 none;
+    float:right;
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+}
+#header .pagetop form .searchbottom{
+    color:#999;
+    font-size:12px;
+    padding-top:5px;
+}
+#header .pagetop form .searchbottom a{
+    margin-left:5px;
+    color:#999;
+}
+#header .pagetop form .searchbottom a:hover{
+    color:#f60;
+}
+#header .nav{
+    background: #90C221;
+    height: 35px;
+}
+#header .fenlei{
+    width: 160px;
+    height: 35px;
+    padding-left: 50px;
+    background: #6d9d03;
+    color:#fff;
+    font-size:14px;
+    line-height: 35px;
+    position: relative;
+}
+#header .fenlei i{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background: url(../img/tubiao.png) no-repeat 0 -122px;
+    top:10px;
+    left:150px;
+}
+#header .nav-1 li{
+    float:left;
+    padding: 0 35px;
+}
+#header .nav-1 li a{
+    font-size:14px;
+    line-height: 35px;
+    color:#fff;
+    font-weight:bold;
+}
+#header .nav-1 li:hover{
+    background: #77b001;
+}
+

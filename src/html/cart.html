@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/userbar.css" />
+        <link rel="stylesheet" type="text/css" href="../css/cart.css" />
+        <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+        <script src="../lib/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('#userbar').load('./userbar.html');
+                $('#footer').load('./footer-b.html');
+            })
+        </script>
+    </head>
+    <body>
+        <div id="userbar"></div>
+        <div id="header">
+            <div class="container">
+                <div class="cart_content_top">
+                    <a href="www.kede.com">
+                        <img src="../img/kekde_logo.gif" height="56" width="196" alt="" />
+                    </a>
+                    <h2>我的购物车</h2>
+                    <div class="progress_bg_1"></div>
+                    <div class="progress_1">我的购物车</div>
+                    <div class="progress_2">确认订单信息</div>
+                    <div class="progress_3">成功提交订单</div>
+                </div>
+                <div class="cart_content">
+                    <div class="cart_null_text">
+                        <i></i>
+                        您的购物车是空的噢~，去挑选您喜欢的商品吧！<br>
+                        <a href="/" target="_self">去选购<b> &gt;&gt;</b></a>
+                    </div>
+                </div>
+                <div class="cart_ticket">
+                    <i class="ticket_i"></i>
+                    <span class="fl">使用优惠券：</span>
+                    <span class="ticket_select">
+                        <i class="ticket_select_i"></i>
+                        <input class="ticket_select_input" type="text" value="--请选择或输入优惠券号--">
+                    </span>
+                    <span class="ticket_btn">确定</span>
+                </div>
+                <div class="cart_aggregate clearfix" id="settlementInfoContainer">
+                    <div>
+                        <div class="jg">￥<span id="TotalMoney">0.00</span></div>
+                        <div class="jg_name">商品总价：</div>
+                        <div class="quantity">共<span id="Quantity">0</span>件商品</div>
+                    </div>
+                    <div class="clear"></div>
+                    <div>
+                        <div class="jg"><span>-￥</span><span id="PromotionDeduction">0.00</span></div>
+                        <div class="jg_name">促销优惠：</div>
+                    </div>
+                    <div class="clear"></div>
+                    <div>
+                        <div class="jg"><span>-￥</span><span id="CouponDeduction">0.00</span></div>
+                        <div class="jg_name">券优惠：</div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="aggregate">
+                        <div class="aggregate_btn" id="btnGoToSubmit">去结算<b> &gt;</b></div>
+                        <div class="aggregate_zj">总计(不含运费)：<b class="a_zj"><span>￥</span><span id="settlementRealTotalMoney">0.00</span></b></div>
+                    </div>
+                </div>
+                <div class="recommend">
+                    <ul class="recommend_title clearfix">
+                        <li>猜你喜欢</li>
+                        <li>我的收藏</li>
+                        <li>最近浏览</li>
+                        <li>回收站</li>
+                    </ul>
+                    <div class="recommend_promotion">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/userbar.css" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" />
+        <link rel="stylesheet" type="text/css" href="css/banner.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/footer.css" />
+        <script src="lib/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            jQuery(function($){
+                $('#userbar').load('html/userbar.html');
+                $('#header').load('html/header.html');
+                $('#banner').load('html/banner.html');
+                $('#main').load('html/main.html');
+                $('#footer').load('html/footer-a.html');
+            })
+        </script>
+    </head>
+    <body>
+        <div id="userbar"></div>
+        <div id="header"></div>
+        <div id="banner"></div>
+        <div id="main"></div>
+        <div id="footer"></div>
+    </body>
+</html>

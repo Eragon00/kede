@@ -1,0 +1,213 @@
+#header {
+  padding: 52px 0 34px 0;
+}
+
+#header .container {
+  width: 1000px;
+}
+
+#header .container h2 {
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 50px;
+  color: #666;
+}
+
+#header .container .headertext {
+  float: right;
+  width: 510px;
+  height: 40px;
+  line-height: 20px;
+  padding: 5px 10px;
+  background-color: #fdf7e9;
+  border: 1px solid #edae1b;
+  color: #666;
+  font-size: 12px;
+}
+
+#main .container {
+  width: 1000px;
+  height: 480px;
+  background: url(../img/login_ffffff.jpg) no-repeat;
+}
+
+#main .container .login {
+  width: 340px;
+  padding-top: 100px;
+  float: right;
+}
+
+#main .container .login .login_title {
+  width: 100%;
+  height: 24px;
+  padding: 18px 0 18px 0;
+  font-size: 20px;
+  color: #666;
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+#main .container .login .login_title div {
+  display: inline-block;
+  margin: 0 40px;
+  color: #666;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#main .container .login .login_title .zh {
+  color: #89b929;
+}
+
+#main .container .login .zhanghao form {
+  width: 280px;
+  margin: 0 auto;
+}
+
+#main .container .login .zhanghao form .r_username {
+  padding-top: 35px;
+}
+
+#main .container .login .zhanghao form .r_username p {
+  position: relative;
+}
+
+#main .container .login .zhanghao form .r_username p span {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 36px;
+  background: url(../img/allbgs.png) no-repeat -62px 4px;
+  top: 0;
+  left: 0;
+}
+
+#main .container .login .zhanghao form .r_username p input {
+  width: 230px;
+  padding-left: 48px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #bdbdbd;
+  color: #666;
+  font-size: 14px;
+}
+
+#main .container .login .zhanghao form .r_password {
+  padding-top: 10px;
+}
+
+#main .container .login .zhanghao form .r_password p {
+  position: relative;
+}
+
+#main .container .login .zhanghao form .r_password p span {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 36px;
+  background: url(../img/allbgs.png) no-repeat -62px -31px;
+  top: 0;
+  left: 0;
+}
+
+#main .container .login .zhanghao form .r_password p input {
+  width: 230px;
+  padding-left: 48px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #bdbdbd;
+  color: #666;
+  font-size: 14px;
+}
+
+#main .container .login .zhanghao form .r_password p i {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  top: 11px;
+  right: 8px;
+  display: inline-block;
+  background: url(../img/allbgs.png) no-repeat -78px -341px;
+  cursor: pointer;
+}
+
+#main .container .login .zhanghao form .r_remeber {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+#main .container .login .zhanghao form .r_remeber a {
+  float: right;
+  color: #f60;
+}
+
+#main .container .login .zhanghao form .r_submit {
+  margin-top: 16px;
+}
+
+#main .container .login .zhanghao form .r_submit button {
+  cursor: pointer;
+  background: #f60;
+  width: 280px;
+  height: 40px;
+  letter-spacing: 35px;
+  padding-left: 35px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 3px;
+}
+
+#main .container .login .cont_button {
+  height: 60px;
+  margin-top: 20px;
+  padding: 0 20px;
+  background: #ebebf1;
+}
+
+#main .container .login .cont_button a {
+  width: 32px;
+  height: 32px;
+  display: block;
+  float: left;
+  margin: 14px 8px 0 0;
+  cursor: pointer;
+  border-radius: 18px;
+  background: url(../img/allbgs.png) no-repeat;
+}
+
+#main .container .login .cont_button a:hover {
+  opacity: 0.6;
+}
+
+#main .container .login .cont_button .weixin {
+  background-position: -120px -74px;
+}
+
+#main .container .login .cont_button .qq {
+  background-position: 0 -74px;
+}
+
+#main .container .login .cont_button .sina {
+  background-position: -40px -74px;
+}
+
+#main .container .login .cont_button .zhifubao {
+  background-position: -80px -74px;
+}
+
+#main .container .login .cont_button .toRegister {
+  float: right;
+  color: #f60;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 60px;
+}
+
+#main .container .login .cont_button .toRegister i {
+  float: right;
+  width: 16px;
+  height: 16px;
+  margin: 22px 0 0 5px;
+  display: block;
+  background: url(../img/tubiao.png) no-repeat -412px -940px;
+}

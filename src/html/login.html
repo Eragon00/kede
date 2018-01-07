@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/userbar.css" />
+        <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+        <link rel="stylesheet" type="text/css" href="../css/login.css" />
+        <script type="text/javascript" src="../lib/jquery.js"></script>
+        <script type="text/javascript" src="../js/login.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('#userbar').load('./userbar.html');
+                $('#footer').load('./footer-b.html');
+            })
+        </script>
+    </head>
+    <body>
+        <div id="userbar"></div>
+        <div id="header">
+            <div class="container">
+                <a href="www.kede.com">
+                    <img src="../img/kekde_logo.gif" height="56" width="196" alt="" />
+                </a>
+                <h2>欢迎登录</h2>
+                <div class="headertext">
+                    为确保您账户的安全及正常使用，依《网络安全法》相关要求，6月1日起会员账户需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="container">
+                <div class="login">
+                    <div class="login_title">
+                        <div class="sm">扫描登录</div>
+                        <span> | </span>
+                        <div class="zh">账号登录</div>
+                    </div>
+                    <div class="saoma"></div>
+                    <div class="zhanghao">
+                        <form action="">
+                            <div class="r_username">
+                                <p>
+                                    <span></span>
+                                    <input type="text" id="UserName" name="UserName" placeholder="输入您的手机、邮箱、用户名" value="">
+                                </p>
+                            </div>
+                            <div class="r_password">
+                                <p>
+                                    <span></span>
+                                    <input type="password" id="Password" name="Password" placeholder="请输入您的密码" value="" class="">
+                                    <!-- <input type="text" id="Password_show" style="display: none"> -->
+                                    <i class="eye_close"></i>
+                                </p>
+                            </div>
+                            <div class="r_remeber">
+                                <label><input type="checkbox" />记住账户</label>
+                                <label><input type="checkbox" />自动登录</label>
+                                <input type="hidden" name="UserType" value="">
+                                <a href="/account/NewFindPw">？忘记密码</a>
+                            </div>
+                            <div class="r_submit">
+                                <button id="denglu">登录</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="cont_button">
+                        <a class="weixin"></a>
+                        <a class="qq"></a>
+                        <a class="sina"></a>
+                        <a class="zhifubao"></a>
+                        <div class="toRegister" href="#">立即注册<i></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>
