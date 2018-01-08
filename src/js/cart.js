@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-01-05 10:56:50
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-01-07 22:59:09
+* @Last Modified time: 2018-01-08 09:06:24
 */
 
 $(document).ready(function(){
@@ -33,7 +33,7 @@ $(document).ready(function(){
         total += goods.price*goods.qty;
         allqty += goods.qty;
         return `
-            <li data-id="${goods.id}">
+            <li class="gli" data-id="${goods.id}">
                 <a href="#">
                     <img src="${goods.imgurl}">
                     <span class="title">${goods.title}</span>
@@ -59,7 +59,7 @@ $(document).ready(function(){
     $Quantity.html(allqty);
 
     var $caozuo = $('.caozuo');
-    $caozuo.on('click',function(){
+    $('.gli').on('click','.caozuo',function(){
         var $currentLi = $(this).closest('li');
         // console.log($currentLi);
         var guid = $currentLi.attr('data-id');
@@ -71,7 +71,7 @@ $(document).ready(function(){
             }
         }
         document.cookie = 'carlist=' + JSON.stringify(carlist);
-        $currentLi.closest().remove($currentLi);
-
+        $currentLi.remove();
+        // console.log(123);
     })
 });
